@@ -10,7 +10,6 @@ li {
   display: flex;
   flex-direction: row;
   height: 66px;
-
   background-color: white;
 }
 
