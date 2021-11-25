@@ -149,6 +149,10 @@ li {
   height: 20px;
 }
 
+body {
+  background-size: cover;
+}
+
 @font-face {
   font-family: Inter;
   src: url(Inter-VariableFont_slnt\wght.ttf);
