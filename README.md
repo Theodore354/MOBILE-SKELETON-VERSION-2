@@ -5,13 +5,11 @@
 > This is a skeleton of mobile version.It was created using html and css.
 > Additional description about the project and its features.
 
-## Getting Started
+## created with
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**This project was done today.It was done according to github flow.It's basically about practicing what i learnt in the previous lessons.There's not much coding.**
-
-To get a local copy up and running follow these simple example steps.
-
+html
+css
+github actions and figma template
 ## Authors
 
 👤 **Author1**
