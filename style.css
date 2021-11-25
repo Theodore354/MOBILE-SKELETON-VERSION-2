@@ -46,6 +46,7 @@ li {
   background-image: url("img/bg1.png");
   background-repeat: no-repeat;
   background-color: #fff;
+  background-size: cover;
 }
 
 .heading {
@@ -146,10 +147,6 @@ li {
   margin-left: 19.01px;
   width: 14.17px;
   height: 20px;
-}
-
-body {
-  background-size: cover;
 }
 
 @font-face {
