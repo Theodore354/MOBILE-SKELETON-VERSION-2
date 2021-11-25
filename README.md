@@ -3,7 +3,9 @@
 ## Mobile skeleton version
 
 > This is a skeleton of mobile version.It was created using html and css.
-> 
+> It was done according to git and github workflow.
+>I applied what i learnt in previous lessons to do this project.
+>lessons(linters,flexbox,grid layout)
 
 ## created with
 
