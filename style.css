@@ -462,7 +462,7 @@ hr {
   background-color: rgba(208, 217, 212, 1);
 }
 
-.promax1 { 
+.promax1 {
   background-color: #fff;
   width: 70px;
   height: 44px;
@@ -484,11 +484,11 @@ hr {
   padding-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%; 
+  border-radius: 50%;
   margin-top: 40px;
 }
 
-.promax3 { 
+.promax3 {
   background-color: #fff;
   width: 48px;
   height: 48px;
@@ -534,7 +534,7 @@ hr {
   line-height: 16px;
 }
 
-.gitlab  {
+.gitlab {
   max-width: 37px;
   margin-left: 8px;
   margin-top: 8px;
@@ -551,12 +551,12 @@ hr {
   line-height: 16px;
 }
 
-.github  {
+.github {
   max-width: 43px;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
-  line-height: 16px
+  line-height: 16px;
   height: 16px;
   padding: 12px;
   background-color: #fff;
@@ -566,7 +566,7 @@ hr {
   border-radius: 10%;
 }
 
-.codepen  {
+.codepen {
   max-width: 55px;
   height: 16px;
   padding: 12px;
@@ -581,7 +581,7 @@ hr {
   margin-left: 8px;
 }
 
-.codekit  {
+.codekit {
   max-width: 48px;
   height: 16px;
   padding: 12px;
@@ -595,7 +595,7 @@ hr {
   line-height: 16px;
 }
 
-.bootstrap  {
+.bootstrap {
   max-width: 60px;
   height: 16px;
   padding: 12px;
@@ -609,7 +609,7 @@ hr {
   line-height: 16px;
 }
 
-.rubyx  {
+.rubyx {
   max-width: 31px;
   height: 16px;
   padding: 12px;
