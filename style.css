@@ -151,7 +151,6 @@ li {
 
 .actiondiv {
   display: flex;
-  width: 327px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
@@ -210,7 +209,6 @@ hr {
 
 .grade1 {
   grid-area: grade1;
-  width: 327px;
   height: auto;
   background-color: rgba(208, 217, 212, 1);
   margin-left: auto;
@@ -223,7 +221,6 @@ hr {
 
 .grade2 {
   grid-area: grade2;
-  width: 327px;
   height: auto;
   background-color: rgba(208, 217, 212, 1);
   margin-left: auto;
@@ -236,7 +233,6 @@ hr {
 
 .grade3 {
   grid-area: grade3;
-  width: 327px;
   height: auto;
   background-color: rgba(208, 217, 212, 1);
   margin-left: auto;
@@ -249,7 +245,6 @@ hr {
 
 .grade4 {
   grid-area: grade4;
-  width: 327px;
   height: auto;
   background-color: rgba(208, 217, 212, 1);
   margin-left: auto;
@@ -275,7 +270,6 @@ hr {
 
 .grade6 {
   grid-area: grade6;
-  width: 327px;
   height: auto;
   background-color: rgba(208, 217, 212, 1);
   margin-left: auto;
@@ -284,4 +278,90 @@ hr {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 3px;
+}
+
+.pro {
+  display: flex;
+  margin-top: 252px;
+  max-width: 327px;
+  height: auto;
+  margin-left: 0;
+  flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+.grade-title {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  max-width: 295px;
+  height: 57px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+}
+
+.rucsht {
+  flex-direction: row;
+  display: flex;
+  margin-left: 55px;
+  margin-right: 40px;
+  height: 32px;
+  max-width: 300px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.ruby {
+  min-width: 79px;
+  height: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #3a4a42;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: rgba(208, 217, 212, 1);
+}
+
+.css {
+  max-width: 21px;
+  height: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #3a4a42;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: rgba(208, 217, 212, 1);
+  margin-left: 8px;
+}
+
+.javaScript {
+  max-width: 58px;
+  height: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #3a4a42;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: rgba(208, 217, 212, 1);
+  margin-left: 8px;
 }
