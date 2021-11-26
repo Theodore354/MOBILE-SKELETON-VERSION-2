@@ -26,6 +26,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone who contributed and helped out with review.
+- Hat tip to anyone who contributed and helped out with review
 - Inspiration
 - etc

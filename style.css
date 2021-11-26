@@ -46,7 +46,6 @@ li {
 }
 
 .heading {
-  flex: 1;
   display: flex;
   margin-top: 32px;
   flex-direction: column;
