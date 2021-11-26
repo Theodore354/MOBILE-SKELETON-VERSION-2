@@ -163,13 +163,12 @@ li {
 }
 
 body {
-  background-color: red;
+  background-color: #fff;
 }
 
 .main-page {
   display: flex;
   flex-direction: column;
-  width: 375px;
   margin-top: 0;
   background-color: #fff;
 }
@@ -200,7 +199,6 @@ hr {
 
 .project_block {
   display: grid;
-  width: 375px;
   background-color: #fff;
   grid-template-areas: "grade1" "grade2" "grade3" "grade4" "grade5" "grade6";
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -409,7 +407,6 @@ hr {
 .about {
   display: flex;
   flex-direction: column;
-  max-width: 375px;
   background-color: #fff;
   align-items: center;
   justify-content: center;
@@ -781,5 +778,4 @@ hr {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  width: 375px;
 }
