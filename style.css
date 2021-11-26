@@ -60,7 +60,7 @@ li {
 .heading1 {
   flex: 1;
   font-size: 40px;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 52px;
   font-weight: 700;
   color: #172b4d;
@@ -70,7 +70,7 @@ li {
 
 .heading2 {
   flex: 1;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
@@ -91,7 +91,7 @@ li {
 
 .text1 {
   flex: 1;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 20px;
   line-height: 28px;
@@ -145,7 +145,7 @@ li {
 }
 
 @font-face {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   src: url(Inter-VariableFont_slnt\wght.ttf);
 }
 
@@ -175,7 +175,7 @@ body {
 
 .title {
   flex: 1;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -256,7 +256,6 @@ hr {
 .grade5 {
   grid-area: grade5;
   height: auto;
-  height: auto;
   background-color: rgba(208, 217, 212, 1);
   margin-left: auto;
   margin-right: auto;
@@ -295,7 +294,7 @@ hr {
   text-align: center;
   max-width: 295px;
   height: 57px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -322,7 +321,7 @@ hr {
   padding-left: 12px;
   padding-right: 12px;
   color: #3a4a42;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -338,7 +337,7 @@ hr {
   padding-left: 12px;
   padding-right: 12px;
   color: #3a4a42;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -355,7 +354,7 @@ hr {
   padding-left: 12px;
   padding-right: 12px;
   color: #3a4a42;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -372,7 +371,7 @@ hr {
   padding-left: 12px;
   padding-right: 12px;
   color: #3a4a42;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -416,7 +415,7 @@ hr {
 }
 
 .about_title {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   margin-left: auto;
   margin-right: auto;
@@ -432,7 +431,7 @@ hr {
 .about_title1 {
   width: 351px;
   height: 189px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -499,7 +498,7 @@ hr {
 }
 
 .grad {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
