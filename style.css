@@ -782,3 +782,7 @@ hr {
   flex-direction: column;
   background-color: #fff;
 }
+
+h3 {
+  text-align: center;
+}
