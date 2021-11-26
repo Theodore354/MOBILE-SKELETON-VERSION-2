@@ -41,7 +41,8 @@ li {
   background-image: url("img/bg1.png");
   background-repeat: no-repeat;
   background-color: #fff;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
 }
 
 .heading {
@@ -164,6 +165,7 @@ li {
 
 body {
   background-color: #fff;
+  margin: 0;
 }
 
 .main-page {
