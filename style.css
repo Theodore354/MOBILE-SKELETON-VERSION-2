@@ -204,12 +204,12 @@ body {
   grid-template-areas: "project";
 }
 
-.projects .project {
-  padding-bottom: 24px;
-}
-
 .skill-icon img {
   padding-top: 25px;
+}
+
+.projects .project {
+  padding-bottom: 24px;
 }
 
 .projects .project img {
