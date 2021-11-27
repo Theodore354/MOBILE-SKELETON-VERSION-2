@@ -208,6 +208,10 @@ body {
   padding-bottom: 24px;
 }
 
+.skill-icon img {
+  padding-top: 25px;
+}
+
 .projects .project img {
   background: var(--card-bg-color);
   width: 100%;
@@ -279,8 +283,9 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 24px;
-  background-image: url("../images/illustration-1-about-me-mobile.svg"),
-    url("../images/illustration-2-about-me-mobile.svg");
+  background-image: 
+url("../images/illustration-1-about-me-mobile.svg"), 
+url("../images/illustration-2-about-me-mobile.svg");
   background-position: top right, bottom left;
   background-repeat: no-repeat;
 }
@@ -310,10 +315,6 @@ body {
   border-radius: 50%;
   margin: 40px 0;
   box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
-}
-
-.skill-icon img {
-  padding-top: 25px;
 }
 
 #skill-categories .skill-category .skill-title {
