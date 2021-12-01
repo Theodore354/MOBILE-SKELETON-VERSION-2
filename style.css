@@ -396,3 +396,66 @@ h3 {
     background-size: contain;
   }
 }
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.contact-container h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+  margin: 24px 0;
+  padding: 5px;
+}
+
+.input-section li input {
+  width: 90%;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172B4D;
+  margin-bottom: 18px;
+}
+.input-section li textarea {
+  margin-bottom: 4px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172B4D;
+}
+input::placeholder,
+textarea::placeholder {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #B3BAC5;
+}
+.input-section .btn {
+  padding: 12px 16px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  background: #36B37F;
+  border-radius: 8px;
+  width: fit-content;
+  align-items: center;
+  
+}
+
+
+
+
+
+
