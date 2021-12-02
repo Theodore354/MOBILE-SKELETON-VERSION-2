@@ -9,7 +9,6 @@
 }
 
 * {
-  border: border-box;
   margin: 0;
   padding: 0;
 }
@@ -291,7 +290,7 @@ body {
   padding-bottom: 24px;
   background-image: 
   url('../images/illustration-1-about-me-mobile.svg'),
-    url('../images/illustration-2-about-me-mobile.svg');
+  url('../images/illustration-2-about-me-mobile.svg');
   background-position: top right, bottom left;
   background-repeat: no-repeat;
 }
