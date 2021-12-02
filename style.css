@@ -112,7 +112,7 @@ li {
   font-weight: normal;
   color: #172b4d;
   text-align: center;
-  margin: 0 20px;
+  margin: 20px;
   margin-bottom: 0;
 }
 
@@ -178,8 +178,8 @@ li {
 
 body {
   background-color: #fff;
-  padding: 0 24px;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
 }
 
 #my-recent-works {
@@ -225,7 +225,7 @@ body {
 
 .projects .project .description-info {
   flex-direction: column;
-  margin: -8px;
+  margin: 20px;
   background: #ffff;
   border-radius: 8px 8px 0 0;
   padding: 0 11px;
@@ -244,14 +244,14 @@ body {
   display: block;
   color: var(--recent-works-text-color);
   padding: 0;
-  margin: 0 auto;
+  margin: 20px;
 }
 
 .projects .project .project-languages li {
   border-radius: 4px;
   background: var(--card-bg-color);
   padding: 8px 12px;
-  margin: 8px 0 8px 7px;
+  margin: 20px;
   letter-spacing: 0.03em;
   font-weight: 600;
   font-size: 12px;
@@ -316,13 +316,13 @@ body {
   height: 80px;
   min-height: 80px;
   border-radius: 50%;
-  margin: 40px 0;
+  margin: 20px;
   box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
 }
 
 #skill-categories .skill-category .skill-title {
   color: #344563;
-  margin: 24px 0;
+  margin: 20px;
 }
 
 #skill-categories .skill-category .skill-stack {
@@ -339,7 +339,7 @@ body {
   font-weight: 600;
   border-radius: 8px;
   color: var(--theme-green-color);
-  margin: 8px;
+  margin: 20px;
 }
 
 .form {
@@ -401,7 +401,7 @@ h3 {
 }
 
 .contact-section {
-  margin: 0 -24px;
+  margin: 20px;
   padding: 20px 24px;
 }
 
@@ -409,7 +409,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
+  margin: 20px;
 }
 
 .contact-container h3 {
@@ -417,7 +417,7 @@ h3 {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin: 24px 0;
+  margin: 20px;
   padding: 5px;
 }
 
@@ -479,7 +479,7 @@ textarea::placeholder {
   line-height: 24px;
   background-color: #36b37f;
   border: none;
-  margin: 10px 70px 20px 70px;
+  margin: 20px;
   border-radius: 8px;
   width: fit-content;
   color: #fff;
@@ -573,4 +573,15 @@ textarea::placeholder {
   line-height: 32px;
   text-align: center;
   color: #42526e;
+}
+
+.btn:hover {
+  background: #36b37f;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+.btn:active {
+  background: #008552;
+  border-radius: 4px;
 }
