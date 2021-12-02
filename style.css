@@ -1,6 +1,6 @@
 :root {
   --top-header-height: 48px;
-  --default-font-family: "inter", sans-serif;
+  --default-font-family: 'inter', sans-serif;
   --theme-green-color: #36b37e;
   --recent-works-project-height: 474px;
   --recent-works-text-color: hsl(150, 12%, 26%);
@@ -58,7 +58,7 @@ li {
   display: flex;
   height: auto;
   flex-direction: column;
-  background-image: url("img/bg1.png");
+  background-image: url('img/bg1.png');
   background-repeat: no-repeat;
   background-color: #fff;
   background-size: cover;
@@ -77,7 +77,7 @@ li {
 
 .heading1 {
   font-size: 30px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 36px;
   font-weight: 700;
   color: #172b4d;
@@ -87,7 +87,7 @@ li {
 }
 
 .heading2 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
@@ -106,7 +106,7 @@ li {
 }
 
 .text1 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 20px;
   line-height: 28px;
@@ -161,7 +161,7 @@ li {
 }
 
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   src: url(Inter-VariableFont_slnt\wght.ttf);
 }
 
@@ -207,7 +207,7 @@ body {
 }
 
 .projects {
-  grid-template-areas: "project";
+  grid-template-areas: 'project';
 }
 
 .skill-icon img {
@@ -289,9 +289,8 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 24px;
-  background-image:
-    url("../images/illustration-1-about-me-mobile.svg"),
-    url("../images/illustration-2-about-me-mobile.svg");
+  background-image: url('../images/illustration-1-about-me-mobile.svg'),
+    url('../images/illustration-2-about-me-mobile.svg');
   background-position: top right, bottom left;
   background-repeat: no-repeat;
 }
@@ -304,7 +303,7 @@ body {
 }
 
 #skill-categories {
-  grid-template-areas: "skill-category";
+  grid-template-areas: 'skill-category';
   list-style-type: none;
 }
 
@@ -418,7 +417,7 @@ h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   margin: 24px 0;
   padding: 5px;
 }
@@ -487,7 +486,6 @@ textarea::placeholder {
   color: #fff;
 }
 
-
 .icons1 {
   display: flex;
   flex-direction: row;
@@ -545,26 +543,25 @@ textarea::placeholder {
   right: 27.31%;
   top: 94.45%;
   bottom: 5.26%;
-
 }
 
 .my-msg:hover {
-  background: #FFFFFF;
-  border: 1px solid #60C095;
+  background: #ffffff;
+  border: 1px solid #60c095;
   box-sizing: border-box;
   border-radius: 4px;
 }
 
 .my-add:hover {
-  background: #FFFFFF;
-  border: 1px solid #D0D9D4;
+  background: #ffffff;
+  border: 1px solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 4px;
 }
 
 .my-nm:hover {
-  background: #FFFFFF;
-  border: 1px solid #D0D9D4;
+  background: #ffffff;
+  border: 1px solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -576,8 +573,5 @@ textarea::placeholder {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #42526E;
+  color: #42526e;
 }
-
-
-
