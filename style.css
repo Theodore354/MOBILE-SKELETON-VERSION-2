@@ -288,8 +288,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 24px;
-  background-image: url('../images/illustration-1-about-me-mobile.svg'),
-    url('../images/illustration-2-about-me-mobile.svg');
+  background-image: url('../images/illustration-2-about-me-mobile.svg');
   background-position: top right, bottom left;
   background-repeat: no-repeat;
 }
