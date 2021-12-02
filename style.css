@@ -427,6 +427,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .input-section ul {
@@ -440,7 +441,8 @@ h3 {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 16px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+  outline: none;
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
@@ -453,7 +455,8 @@ h3 {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  padding: 16px;
+  height: 130px;
+  padding: 17px;
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
@@ -472,9 +475,12 @@ textarea::placeholder {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  background: #fff;
+  background-color: #36b37f;
+  border: none;
+  margin: 10px 70px 20px 70px;
   border-radius: 8px;
   width: fit-content;
+  color: #fff;
 }
 
 
@@ -489,12 +495,20 @@ textarea::placeholder {
 
 .icon11 {
   height: 19.96px;
+  left: 27.31%;
+  right: 67.36%;
+  top: 94.45%;
+  bottom: 5.26%;
 }
 
 .icon21 {
   margin-left: 19.78px;
   width: 20px;
   height: 20px;
+  left: 39.65%;
+  right: 56.96%;
+  top: 94.49%;
+  bottom: 5.26%;
 }
 
 .icon31 {
@@ -502,20 +516,63 @@ textarea::placeholder {
   width: 20px;
   height: 16px;
   margin-top: 4px;
+  left: 48.38%;
+  right: 46.29%;
+  top: 94.48%;
+  bottom: 5.29%;
 }
 
 .icon41 {
   margin-left: 20px;
   width: 17.99px;
   height: 20px;
+  left: 59.04%;
+  right: 36.16%;
+  top: 94.45%;
+  bottom: 5.26%;
 }
 
 .icon51 {
   margin-left: 19.01px;
   width: 14.17px;
   height: 20px;
+  left: 68.91%;
+  right: 27.31%;
+  top: 94.45%;
+  bottom: 5.26%;
+
 }
 
+.my-msg:hover {
+  background: #FFFFFF;
+  border: 1px solid #60C095;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.my-add:hover {
+  background: #FFFFFF;
+  border: 1px solid #D0D9D4;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.my-my-nm:hover {
+  background: #FFFFFF;
+  border: 1px solid #D0D9D4;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.foot-mail {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526E;
+}
 
 
 
