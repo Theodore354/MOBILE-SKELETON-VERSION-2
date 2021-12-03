@@ -48,12 +48,20 @@ li {
   margin-top: 29px;
 }
 
+.nav-bar {
+  display: none;
+}
+
 .image {
   height: 16px;
   margin-right: 32px;
 }
 
 .info1 {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
   display: flex;
   height: auto;
   flex-direction: column;
@@ -61,6 +69,7 @@ li {
   background-repeat: no-repeat;
   background-color: #fff;
   background-size: cover;
+  width: 100%;
 }
 
 .heading {
@@ -581,4 +590,35 @@ textarea::placeholder {
 .btn:active {
   background: #008552;
   border-radius: 4px;
+}
+
+@media screen and (min-width: 992px) {
+  .logo-sec .wel,
+  .menu .image {
+    display: none;
+  }
+
+  .logo-sec {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-bar li {
+    margin: 0 10px;
+  }
+
+  .info1 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/Header-llustration-desktop.svg);
+    background-image:url(./img/theo.png)
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
