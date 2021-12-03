@@ -1,11 +1,16 @@
 :root {
   --top-header-height: 48px;
-  --default-font-family: "inter", sans-serif;
+  --default-font-family: 'inter', sans-serif;
   --theme-green-color: #36b37e;
   --recent-works-project-height: 474px;
   --recent-works-text-color: hsl(150, 12%, 26%);
   --card-bg-color: #ebf0ee;
   --card-border-color: #d0d9d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body * {
@@ -52,7 +57,7 @@ li {
   display: flex;
   height: auto;
   flex-direction: column;
-  background-image: url("img/bg1.png");
+  background-image: url('img/bg1.png');
   background-repeat: no-repeat;
   background-color: #fff;
   background-size: cover;
@@ -71,7 +76,7 @@ li {
 
 .heading1 {
   font-size: 30px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 36px;
   font-weight: 700;
   color: #172b4d;
@@ -81,7 +86,7 @@ li {
 }
 
 .heading2 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
@@ -100,14 +105,14 @@ li {
 }
 
 .text1 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 20px;
   line-height: 28px;
   font-weight: normal;
   color: #172b4d;
   text-align: center;
-  margin: 0 20px;
+  margin: 20px;
   margin-bottom: 0;
 }
 
@@ -155,7 +160,7 @@ li {
 }
 
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   src: url(Inter-VariableFont_slnt\wght.ttf);
 }
 
@@ -173,8 +178,7 @@ li {
 
 body {
   background-color: #fff;
-  padding: 0 24px;
-  margin: 0 auto;
+  padding: 0;
 }
 
 #my-recent-works {
@@ -201,7 +205,7 @@ body {
 }
 
 .projects {
-  grid-template-areas: "project";
+  grid-template-areas: 'project';
 }
 
 .skill-icon img {
@@ -210,6 +214,7 @@ body {
 
 .projects .project {
   padding-bottom: 24px;
+  margin: 0 20px;
 }
 
 .projects .project img {
@@ -220,8 +225,8 @@ body {
 
 .projects .project .description-info {
   flex-direction: column;
-  margin: -8px;
-  background: #ffff;
+  margin: 20px;
+  background: #fff;
   border-radius: 8px 8px 0 0;
   padding: 0 11px;
 }
@@ -239,14 +244,14 @@ body {
   display: block;
   color: var(--recent-works-text-color);
   padding: 0;
-  margin: 0 auto;
+  margin: 20px;
 }
 
 .projects .project .project-languages li {
   border-radius: 4px;
   background: var(--card-bg-color);
   padding: 8px 12px;
-  margin: 8px 0 8px 7px;
+  margin: 20px;
   letter-spacing: 0.03em;
   font-weight: 600;
   font-size: 12px;
@@ -283,9 +288,8 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 24px;
-  background-image:
-    url("../images/illustration-1-about-me-mobile.svg"),
-    url("../images/illustration-2-about-me-mobile.svg");
+  margin: 0 20px;
+  background-image: url('../images/illustration-2-about-me-mobile.svg');
   background-position: top right, bottom left;
   background-repeat: no-repeat;
 }
@@ -298,8 +302,9 @@ body {
 }
 
 #skill-categories {
-  grid-template-areas: "skill-category";
+  grid-template-areas: 'skill-category';
   list-style-type: none;
+  margin: 0 20px;
 }
 
 #skill-categories .skill-category {
@@ -313,13 +318,13 @@ body {
   height: 80px;
   min-height: 80px;
   border-radius: 50%;
-  margin: 40px 0;
+  margin: 20px;
   box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
 }
 
 #skill-categories .skill-category .skill-title {
   color: #344563;
-  margin: 24px 0;
+  margin: 20px;
 }
 
 #skill-categories .skill-category .skill-stack {
@@ -336,7 +341,7 @@ body {
   font-weight: 600;
   border-radius: 8px;
   color: var(--theme-green-color);
-  margin: 8px;
+  margin: 20px;
 }
 
 .form {
@@ -395,4 +400,185 @@ h3 {
   .info1 {
     background-size: contain;
   }
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.contact-container h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 20px;
+  padding: 5px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  background-image: url(./illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.input-section ul {
+  max-width: 100%;
+}
+
+.input-section ul li input {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.input-section textarea {
+  margin-bottom: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 130px;
+  padding: 17px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
+.input-section .btn {
+  padding: 12px 16px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #36b37f;
+  border: none;
+  margin: 20px;
+  border-radius: 8px;
+  width: fit-content;
+  color: #fff;
+}
+
+.icons1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+.icon11 {
+  height: 19.96px;
+  left: 27.31%;
+  right: 67.36%;
+  top: 94.45%;
+  bottom: 5.26%;
+}
+
+.icon21 {
+  margin-left: 19.78px;
+  width: 20px;
+  height: 20px;
+  left: 39.65%;
+  right: 56.96%;
+  top: 94.49%;
+  bottom: 5.26%;
+}
+
+.icon31 {
+  margin-left: 20px;
+  width: 20px;
+  height: 16px;
+  margin-top: 4px;
+  left: 48.38%;
+  right: 46.29%;
+  top: 94.48%;
+  bottom: 5.29%;
+}
+
+.icon41 {
+  margin-left: 20px;
+  width: 17.99px;
+  height: 20px;
+  left: 59.04%;
+  right: 36.16%;
+  top: 94.45%;
+  bottom: 5.26%;
+}
+
+.icon51 {
+  margin-left: 19.01px;
+  width: 14.17px;
+  height: 20px;
+  left: 68.91%;
+  right: 27.31%;
+  top: 94.45%;
+  bottom: 5.26%;
+}
+
+.my-msg:hover {
+  background: #fff;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.my-add:hover {
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.my-nm:hover {
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.foot-mail {
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
+
+.btn:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+.btn:active {
+  background: #008552;
+  border-radius: 4px;
 }
