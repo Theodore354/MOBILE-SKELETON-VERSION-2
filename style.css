@@ -179,7 +179,6 @@ li {
 body {
   background-color: #fff;
   padding: 0;
-  margin: 0;
 }
 
 #my-recent-works {
@@ -215,6 +214,7 @@ body {
 
 .projects .project {
   padding-bottom: 24px;
+  margin: 0 20px;
 }
 
 .projects .project img {
@@ -226,7 +226,7 @@ body {
 .projects .project .description-info {
   flex-direction: column;
   margin: 20px;
-  background: #ffff;
+  background: #fff;
   border-radius: 8px 8px 0 0;
   padding: 0 11px;
 }
@@ -288,6 +288,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 24px;
+  margin: 0 20px;
   background-image: url('../images/illustration-2-about-me-mobile.svg');
   background-position: top right, bottom left;
   background-repeat: no-repeat;
@@ -303,6 +304,7 @@ body {
 #skill-categories {
   grid-template-areas: 'skill-category';
   list-style-type: none;
+  margin: 0 20px;
 }
 
 #skill-categories .skill-category {
@@ -398,11 +400,6 @@ h3 {
   .info1 {
     background-size: contain;
   }
-}
-
-.contact-section {
-  margin: 20px;
-  padding: 20px 24px;
 }
 
 .contact-container {
