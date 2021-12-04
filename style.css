@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 html {
@@ -210,7 +210,8 @@ h1 span {
 }
 
 .about-section {
-  background-image: url(./IMG/img/illustration2.svg), url(./IMG/img/illustration.svg);
+  background-image: url(./IMG/img/illustration2.svg),
+    url(./IMG/img/illustration.svg);
   background-position: top right, bottom left;
   background-repeat: no-repeat, no-repeat;
   position: relative;
@@ -367,6 +368,12 @@ h1 span {
   cursor: pointer;
 }
 
+.btn-form:active {
+  background: #008552;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 /* Bottom navigation */
 .footer-nav {
   display: flex;
@@ -435,10 +442,9 @@ hr {
 
   .footer-nav {
     margin-top: 10%;
-    background-image:
-      url("IMG/img/imgSub/footing-bg-1-desktop.svg"),
-      url("IMG/img/imgSub/footing-bg-2-desktop.svg"),
-      url("IMG/img/imgSub/footing-bg-3-desktop.svg");
+    background-image: url('IMG/img/imgSub/footing-bg-1-desktop.svg'),
+      url('IMG/img/imgSub/footing-bg-2-desktop.svg'),
+      url('IMG/img/imgSub/footing-bg-3-desktop.svg');
     background-position: bottom left, 13rem bottom, bottom right;
     background-size: 10%;
     display: flex;
