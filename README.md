@@ -1,24 +1,35 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Portfolio
+
+> This is my portfolio website showcasing my work as a web developer.
+
+![screenshot](./app_screenshot.png)
+
+Additional description about the project and its features.
+
+## Built With
+
+- HTML
+- CSS
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+- Flexbox
+- Linters
+- Figma
+- GitHub Flow
 
 
-## Mobile skeleton version
-
-> This is a skeleton of mobile version.It was created using html and css.
-> It was done according to git and github workflow.
-> I applied what i learnt in previous lessons to do this project.
-> lessons(linters,flexbox,grid layout)
-
-## created with
-
-html
-css
-github actions and figma template
 
 ## Authors
 
-👤 **Author1**
+👤 **Albert Theodore Lutterodt**
 
 - GitHub: [@githubhandle](https://github.com/Theodore354)
 - Twitter: [@twitterhandle](https://twitter.com/Alberttheodore1)
+-LinkedIn: [@linkedinhandle](https://www.linkedin.com/in/albert-theodore-lutterodt-8059031a0/)
 
 Contributions, issues, and feature requests are welcome!
 
@@ -26,8 +37,8 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
+
 ## Acknowledgments
 
-- Hat tip to anyone who contributed and helped out with review
-- Inspiration
-- etc
+- W3schools for references
+- MDN Documentation for references and research
