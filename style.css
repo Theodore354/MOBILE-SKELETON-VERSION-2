@@ -46,7 +46,7 @@ nav .fa-bars {
 }
 
 .home-page {
-  background-image: url(./IMG/img/desktop.svg);
+  background-image: url(IMG/desktop.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -210,9 +210,7 @@ h1 span {
 }
 
 .about-section {
-  background-image:
-    url(./IMG/img/illustration2.svg),
-    url(./IMG/img/illustration.svg);
+  background-image: url(IMG/illustration2.svg), url(IMG/illustration.svg);
   background-position: top right, bottom left;
   background-repeat: no-repeat, no-repeat;
   position: relative;
@@ -443,10 +441,8 @@ hr {
 
   .footer-nav {
     margin-top: 10%;
-    background-image:
-      url('IMG/img/imgSub/footing-bg-1-desktop.svg'),
-      url('IMG/img/imgSub/footing-bg-2-desktop.svg'),
-      url('IMG/img/imgSub/footing-bg-3-desktop.svg');
+    background-image: url('IMG/footing-bg-1-desktop.svg'),
+      url('IMG/footing-bg-2-desktop.svg'), url('IMG/footing-bg-3-desktop.svg');
     background-position: bottom left, 13rem bottom, bottom right;
     background-size: 10%;
     display: flex;
