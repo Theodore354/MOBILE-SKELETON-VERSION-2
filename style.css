@@ -86,6 +86,12 @@ h1 span {
   justify-content: center;
 }
 
+.icon-list {
+  padding: 20px 20px 20px 20px;
+  transition: 3s all ease-in;
+  border-color: #36b37e;
+}
+
 .icon-list li {
   list-style: none;
   margin-right: 19px;
@@ -111,6 +117,16 @@ h1 span {
   display: flex;
   justify-content: center;
   margin: 10px;
+}
+
+.desk-nav a:hover {
+  background-color: #36b37f;
+  color: #fff;
+}
+
+.section-title h2:hover {
+  background-color: green;
+  color: white;
 }
 
 .section-title h2 {
@@ -210,7 +226,7 @@ h1 span {
 }
 
 .about-section {
-  background-image:
+  background-image: 
     url(./IMG/img/illustration2.svg),
     url(./IMG/img/illustration.svg);
   background-position: top right, bottom left;
@@ -443,8 +459,7 @@ hr {
 
   .footer-nav {
     margin-top: 10%;
-    background-image:
-      url('IMG/img/imgSub/footing-bg-1-desktop.svg'),
+    background-image: url('IMG/img/imgSub/footing-bg-1-desktop.svg'),
       url('IMG/img/imgSub/footing-bg-2-desktop.svg'),
       url('IMG/img/imgSub/footing-bg-3-desktop.svg');
     background-position: bottom left, 13rem bottom, bottom right;
