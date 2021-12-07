@@ -221,8 +221,8 @@ h1 span {
 
 .about-section {
   background-image: 
-    url(./IMG/img/illustration2.svg),
-    url(./IMG/img/illustration.svg);
+     url(./IMG/img/illustration2.svg),
+     url(./IMG/img/illustration.svg);
   background-position: top right, bottom left;
   background-repeat: no-repeat, no-repeat;
   position: relative;
