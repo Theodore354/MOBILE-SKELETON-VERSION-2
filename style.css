@@ -66,7 +66,7 @@ nav .fa-bars {
 }
 
 h1 span {
-  color: #36b37e;
+  color: #247f59;
 }
 
 .info {
@@ -197,7 +197,7 @@ h1 span {
   border: none;
   border-radius: 8px;
   color: #fff;
-  background: #36b37f;
+  background: #206a4b;
   padding: 15px 20px;
   font-weight: 500;
   font-size: 17px;
@@ -220,8 +220,7 @@ h1 span {
 }
 
 .about-section {
-  background-image:
-    url(./IMG/img/illustration2.svg),
+  background-image: url(./IMG/img/illustration2.svg),
     url(./IMG/img/illustration.svg);
   background-position: top right, bottom left;
   background-repeat: no-repeat, no-repeat;
@@ -282,7 +281,7 @@ h1 span {
 }
 
 .common {
-  color: #36b37e;
+  color: #26825c;
   padding: 6px 10px;
   font-weight: 600;
   font-size: 12px;
@@ -374,7 +373,7 @@ h1 span {
   color: #fff;
   padding: 12px;
   margin: 30px;
-  background: #36b37f;
+  background: #26825c;
   border-radius: 4px;
   outline: none;
   border: none;
@@ -460,7 +459,9 @@ hr {
 
   .footer-nav {
     margin-top: 10%;
-    background-image: url('IMG/img/imgSub/footing-bg-1-desktop.svg'), url('IMG/img/imgSub/footing-bg-2-desktop.svg'), url('IMG/img/imgSub/footing-bg-3-desktop.svg');
+    background-image: url('IMG/img/imgSub/footing-bg-1-desktop.svg'),
+      url('IMG/img/imgSub/footing-bg-2-desktop.svg'),
+      url('IMG/img/imgSub/footing-bg-3-desktop.svg');
     background-position: bottom left, 13rem bottom, bottom right;
     background-size: 10%;
     display: flex;
@@ -535,5 +536,4 @@ hr {
   .btn-form {
     margin: 10px;
   }
-
 }
