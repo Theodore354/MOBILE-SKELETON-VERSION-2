@@ -113,6 +113,14 @@ h1 span {
   margin: 10px;
 }
 
+.btn-form a {
+  color: #fff;
+}
+
+.project-btn a {
+  color: #fff;
+}
+
 .desk-nav a:hover {
   background-color: #36b37f;
   color: #fff;
@@ -204,10 +212,6 @@ h1 span {
   line-height: 24px;
 }
 
-.project-btn a {
-  color: #fff;
-}
-
 .section-paragraph {
   display: flex;
   justify-content: center;
@@ -224,8 +228,7 @@ h1 span {
 }
 
 .about-section {
-  background-image: url(./IMG/img/illustration2.svg),
-    url(./IMG/img/illustration.svg);
+  background-image: url(./IMG/img/illustration2.svg), url(./IMG/img/illustration.svg);
   background-position: top right, bottom left;
   background-repeat: no-repeat, no-repeat;
   position: relative;
@@ -384,10 +387,6 @@ h1 span {
   border: none;
 }
 
-.btn-form a {
-  color: #fff;
-}
-
 .btn-form:hover {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
@@ -468,9 +467,7 @@ hr {
 
   .footer-nav {
     margin-top: 10%;
-    background-image: url('IMG/img/imgSub/footing-bg-1-desktop.svg'),
-      url('IMG/img/imgSub/footing-bg-2-desktop.svg'),
-      url('IMG/img/imgSub/footing-bg-3-desktop.svg');
+    background-image: url('IMG/img/imgSub/footing-bg-1-desktop.svg'), url('IMG/img/imgSub/footing-bg-2-desktop.svg'), url('IMG/img/imgSub/footing-bg-3-desktop.svg');
     background-position: bottom left, 13rem bottom, bottom right;
     background-size: 10%;
     display: flex;
@@ -560,8 +557,8 @@ hr {
 
   label {
     font-size: 20px;
-  font-weight: bold;
-  color: #172b4d;
-  text-align: center;
+    font-weight: bold;
+    color: #172b4d;
+    text-align: center;
   }
 }
