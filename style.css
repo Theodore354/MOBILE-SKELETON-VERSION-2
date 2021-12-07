@@ -348,6 +348,13 @@ h1 span {
   align-items: center;
 }
 
+.label_and_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .form-control {
   width: 100%;
   padding: 15px 16px;
@@ -485,7 +492,7 @@ hr {
   .message-form {
     flex: 60%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
@@ -528,4 +535,5 @@ hr {
   .btn-form {
     margin: 10px;
   }
+
 }
