@@ -204,6 +204,10 @@ h1 span {
   line-height: 24px;
 }
 
+.project-btn a {
+  color: #fff;
+}
+
 .section-paragraph {
   display: flex;
   justify-content: center;
@@ -345,6 +349,7 @@ h1 span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .label_and_box {
@@ -368,7 +373,7 @@ h1 span {
 
 .btn-form {
   text-align: center;
-  font-size: 12px;
+  font-size: 17px;
   font-weight: 500;
   color: #fff;
   padding: 12px;
@@ -377,6 +382,10 @@ h1 span {
   border-radius: 4px;
   outline: none;
   border: none;
+}
+
+.btn-form a {
+  color: #fff;
 }
 
 .btn-form:hover {
@@ -495,7 +504,15 @@ hr {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .label_and_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   .input1 {
@@ -505,6 +522,10 @@ hr {
   .input2 {
     flex: 45%;
     align-self: flex-end;
+  }
+
+  .input3 {
+    margin-left: 50px;
   }
 
   .input3,
@@ -535,5 +556,12 @@ hr {
 
   .btn-form {
     margin: 10px;
+  }
+
+  label {
+    font-size: 20px;
+  font-weight: bold;
+  color: #172b4d;
+  text-align: center;
   }
 }
