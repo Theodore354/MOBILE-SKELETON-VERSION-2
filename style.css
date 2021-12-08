@@ -46,7 +46,7 @@ nav .fa-bars {
 }
 
 .home-page {
-  background-image: url(./IMG/img/desktop.svg);
+  background-image: url(./img/desktop.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -228,7 +228,7 @@ h1 span {
 }
 
 .about-section {
-  background-image: url(./IMG/img/illustration2.svg), url(./IMG/img/illustration.svg);
+  background-image: url(./img/illustration2.svg), url(./img/illustration.svg);
   background-position: top right, bottom left;
   background-repeat: no-repeat, no-repeat;
   position: relative;
