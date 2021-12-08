@@ -113,11 +113,19 @@ h1 span {
   margin: 10px;
 }
 
-.btn-form a {
+.project-btn a {
+  outline: none;
+  border: none;
+  border-radius: 8px;
   color: #fff;
+  background: #206a4b;
+  padding: 15px 20px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
 
-.project-btn a {
+.btn-form a {
   color: #fff;
 }
 
@@ -153,15 +161,19 @@ h1 span {
 
 .project-card {
   margin: 5px auto;
-  border: 2px solid #ebf0ee;
   border-radius: 8px;
   height: 474px;
   width: 327px;
+  background-image: url("./images/image_Plaholder.svg");
+  position: relative;
 }
 
-.project-card img {
-  width: 100%;
-  height: 53%;
+.poject_card_info {
+  background-color: #fff;
+  height: 45%;
+  position: relative;
+  top: 250px;
+  border-radius: 8px;
 }
 
 .project-card .card-title {
@@ -198,18 +210,6 @@ h1 span {
   display: flex;
   justify-content: center;
   margin: 22px;
-}
-
-.project-btn button {
-  outline: none;
-  border: none;
-  border-radius: 8px;
-  color: #fff;
-  background: #206a4b;
-  padding: 15px 20px;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
 }
 
 .section-paragraph {
@@ -450,7 +450,9 @@ hr {
   }
 
   .project-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 369px);
+    align-items: center;
+    justify-content: center;
   }
 
   .d-flex {
@@ -467,7 +469,8 @@ hr {
 
   .footer-nav {
     margin-top: 10%;
-    background-image: url('img/footing-bg-1-desktop.svg'),
+    background-image:
+      url('img/footing-bg-1-desktop.svg'),
       url('img//footing-bg-2-desktop.svg'),
       url('img/footing-bg-3-desktop.svg');
     background-position: bottom left, 13rem bottom, bottom right;
