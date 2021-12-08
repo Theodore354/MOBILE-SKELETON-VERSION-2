@@ -441,9 +441,10 @@ hr {
 
   .footer-nav {
     margin-top: 10%;
-    background-image: 
+    background-image:
       url('./IMG/footing-bg-1-desktop.svg'),
-      url('./IMG/footing-bg-2-desktop.svg'), url('./IMG/footing-bg-3-desktop.svg');
+      url('./IMG/footing-bg-2-desktop.svg'),
+      url('./IMG/footing-bg-3-desktop.svg');
     background-position: bottom left, 13rem bottom, bottom right;
     background-size: 10%;
     display: flex;
