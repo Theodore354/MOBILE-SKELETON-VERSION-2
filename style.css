@@ -46,7 +46,7 @@ nav .fa-bars {
 }
 
 .home-page {
-  background-image: url(./IMG/img/desktop.svg);
+  background-image: url(./img/desktop.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -66,7 +66,7 @@ nav .fa-bars {
 }
 
 h1 span {
-  color: #36b37e;
+  color: #247f59;
 }
 
 .info {
@@ -113,6 +113,22 @@ h1 span {
   margin: 10px;
 }
 
+.project-btn a {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background: #206a4b;
+  padding: 15px 20px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.btn-form a {
+  color: #fff;
+}
+
 .desk-nav a:hover {
   background-color: #36b37f;
   color: #fff;
@@ -145,15 +161,19 @@ h1 span {
 
 .project-card {
   margin: 5px auto;
-  border: 2px solid #ebf0ee;
   border-radius: 8px;
   height: 474px;
   width: 327px;
+  background-image: url("./images/image_Plaholder.svg");
+  position: relative;
 }
 
-.project-card img {
-  width: 100%;
-  height: 53%;
+.poject_card_info {
+  background-color: #fff;
+  height: 45%;
+  position: relative;
+  top: 250px;
+  border-radius: 8px;
 }
 
 .project-card .card-title {
@@ -192,18 +212,6 @@ h1 span {
   margin: 22px;
 }
 
-.project-btn button {
-  outline: none;
-  border: none;
-  border-radius: 8px;
-  color: #fff;
-  background: #36b37f;
-  padding: 15px 20px;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-}
-
 .section-paragraph {
   display: flex;
   justify-content: center;
@@ -220,9 +228,7 @@ h1 span {
 }
 
 .about-section {
-  background-image:
-    url(./IMG/img/illustration2.svg),
-    url(./IMG/img/illustration.svg);
+  background-image: url(./img/illustration2.svg), url(./img/illustration.svg);
   background-position: top right, bottom left;
   background-repeat: no-repeat, no-repeat;
   position: relative;
@@ -282,7 +288,7 @@ h1 span {
 }
 
 .common {
-  color: #36b37e;
+  color: #26825c;
   padding: 6px 10px;
   font-weight: 600;
   font-size: 12px;
@@ -346,6 +352,14 @@ h1 span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.label_and_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-control {
@@ -362,12 +376,12 @@ h1 span {
 
 .btn-form {
   text-align: center;
-  font-size: 12px;
+  font-size: 17px;
   font-weight: 500;
   color: #fff;
   padding: 12px;
   margin: 30px;
-  background: #36b37f;
+  background: #26825c;
   border-radius: 4px;
   outline: none;
   border: none;
@@ -436,7 +450,9 @@ hr {
   }
 
   .project-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 369px);
+    align-items: center;
+    justify-content: center;
   }
 
   .d-flex {
@@ -453,7 +469,10 @@ hr {
 
   .footer-nav {
     margin-top: 10%;
-    background-image: url('IMG/img/imgSub/footing-bg-1-desktop.svg'), url('IMG/img/imgSub/footing-bg-2-desktop.svg'), url('IMG/img/imgSub/footing-bg-3-desktop.svg');
+    background-image:
+      url('img/footing-bg-1-desktop.svg'),
+      url('img//footing-bg-2-desktop.svg'),
+      url('img/footing-bg-3-desktop.svg');
     background-position: bottom left, 13rem bottom, bottom right;
     background-size: 10%;
     display: flex;
@@ -485,9 +504,17 @@ hr {
   .message-form {
     flex: 60%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .label_and_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   .input1 {
@@ -497,6 +524,10 @@ hr {
   .input2 {
     flex: 45%;
     align-self: flex-end;
+  }
+
+  .input3 {
+    margin-left: 50px;
   }
 
   .input3,
@@ -527,5 +558,12 @@ hr {
 
   .btn-form {
     margin: 10px;
+  }
+
+  label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #172b4d;
+    text-align: center;
   }
 }
