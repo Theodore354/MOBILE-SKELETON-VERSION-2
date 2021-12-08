@@ -164,16 +164,16 @@ h1 span {
   border-radius: 8px;
   height: 474px;
   width: 327px;
-  background-image: url("./images/image_Plaholder.svg");
+  background-image: url('./images/Img_Plaholder.svg');
   position: relative;
 }
 
 .poject_card_info {
   background-color: #fff;
-  height: 45%;
+  height: 47%;
   position: relative;
-  top: 250px;
   border-radius: 8px;
+  top: 250px;
 }
 
 .project-card .card-title {
