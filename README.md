@@ -1,12 +1,11 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# portfolio site
+[link here!](https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/)
 
-# Portfolio
-
-> This is my portfolio website showcasing my work as a web developer.
+> This is my portfolio website showcasing my work as a web developer
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+
 
 ## Built With
 
