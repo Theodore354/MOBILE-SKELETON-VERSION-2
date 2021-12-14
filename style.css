@@ -25,11 +25,14 @@ header {
 }
 
 .desk-nav {
-  display: none;
+  height: 100vh;
+  width: 100%;
+  list-style: none;
+  border: 2px solid;
 }
 
-ul {
-  list-style: none;
+.collapse {
+  display: none;
 }
 
 a {
@@ -469,8 +472,8 @@ hr {
 
   .footer-nav {
     margin-top: 10%;
-    background-image:
-      url('./IMG/footing-bg-1-desktop.svg'),
+    /* stylelint-disable-next-line declaration-colon-newline-after */
+    background-image: url('./IMG/footing-bg-1-desktop.svg'),
       url('./IMG/footing-bg-2-desktop.svg'),
       url('./IMG/footing-bg-3-desktop.svg');
     background-position: bottom left, 13rem bottom, bottom right;
