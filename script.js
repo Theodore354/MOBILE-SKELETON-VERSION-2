@@ -1,18 +1,19 @@
-let hamburger = document.querySelector('#hamburger');
-let scripticon = document.querySelector('#scripticon');
-let logo2 = document.querySelector('#logo2');
-let display = document.querySelector('#display');
-hamburger.addEventListener('click',function (){
-    scripticon.classList.toggle('collapse');
-    hamburger.classList.add('collapse');
-    logo2.classList.add('collapse');
-    header.classList.remove('heading-element');  
+const hamburger = document.querySelector('.mobile-nav');
+const mobilemenu = document.querySelector('.mob-menu');
+const closebtn = document.querySelector('.fa-times');
+const links = document.querySelectorAll('.links');
+
+
+hamburger.addEventListener('click', () => {
+  mobilemenu.classList.remove('collapse');
 });
-let header = document.querySelector('header');
-display.addEventListener('click', function () {
-    scripticon.classList.toggle('collapse');
-    hamburger.classList.remove('collapse');
-    logo2.classList.remove('collapse');
-    header.classList.add('heading-element');
-    
-});
+
+closebtn.addEventListener('click', () => {
+  mobilemenu.classList.add('collapse');
+})
+
+for (let i = 0; i < links.length; i += 1) {
+  links[i].addEventListener('click', () => {
+    mobilemenu.classList.add('collapse');
+  });
+}
