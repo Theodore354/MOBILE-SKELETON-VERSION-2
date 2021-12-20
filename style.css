@@ -20,7 +20,7 @@ html {
   font-weight: 600;
   font-size: 20px;
   width: 90px;
-  height: 28px;  
+  height: 28px;
 }
 
 .desk-nav {
@@ -74,7 +74,9 @@ html {
   transition: 1s;
 }
 
-.collapse { display: none; }
+.collapse {
+  display: none;
+}
 
 a {
   color: #28352f;
@@ -478,12 +480,18 @@ hr {
     justify-content: center;
     flex-direction: row;
   }
- 
-  .logo { display: none; }
 
-  .desk-nav img { display: none; }
+  .logo {
+    display: none;
+  }
 
-  .mobile-nav { display: none; }
+  .desk-nav img {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
 
   .desk-nav a {
     font-weight: bold;
