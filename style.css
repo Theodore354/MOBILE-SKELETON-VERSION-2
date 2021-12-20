@@ -9,10 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
-header {
+.heading-element {
   display: flex;
   justify-content: space-between;
-  margin: 24px 24px 0 24px;
+  margin: 24px;
 }
 
 .logo {
@@ -21,15 +21,61 @@ header {
   font-size: 20px;
   width: 90px;
   height: 28px;
-  display: block;
 }
 
 .desk-nav {
   display: none;
+  list-style: none;
 }
 
-ul {
+.mob-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #fff;
+  mix-blend-mode: normal;
+  padding: 0;
+}
+
+.mob-menu .fa-times {
+  color: #67798e;
+  font-size: 25px;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.menu-link {
+  display: flex;
+  flex-direction: column;
   list-style: none;
+  margin-top: 15%;
+}
+
+.menu-link .links {
+  text-decoration: none;
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  padding: 15px 24px;
+}
+
+.menu-link .links:hover {
+  color: #247f59;
+  transition: 1s;
+}
+
+.collapse {
+  display: none;
 }
 
 a {
@@ -421,28 +467,40 @@ hr {
 }
 
 @media screen and (min-width: 992px) {
-  header {
+  .heading-element {
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .desk-nav {
     align-items: center;
     list-style: none;
-    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    background: transparent;
-    position: static;
-  }
-
-  .desk-nav li {
-    margin: 0 10px;
-    font-weight: bold;
   }
 
   .logo {
     display: none;
+  }
+
+  .desk-nav img {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .desk-nav a {
+    text-decoration: none;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 32px;
+    margin-right: 30%;
   }
 
   nav .fa-bars {
@@ -469,8 +527,8 @@ hr {
 
   .footer-nav {
     margin-top: 10%;
-    background-image:
-      url('./IMG/footing-bg-1-desktop.svg'),
+    /* stylelint-disable-next-line declaration-colon-newline-after */
+    background-image: url('./IMG/footing-bg-1-desktop.svg'),
       url('./IMG/footing-bg-2-desktop.svg'),
       url('./IMG/footing-bg-3-desktop.svg');
     background-position: bottom left, 13rem bottom, bottom right;

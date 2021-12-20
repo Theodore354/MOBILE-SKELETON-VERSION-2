@@ -25,16 +25,26 @@
 </head>
 
 <body>
-    <header>
-        <h2 class="logo"><a href="#">Welcome</a></h2>
+    <header class="heading-element">
+        <h2 class="logo" id="logo2"><a href="#">Welcome</a></h2>
         <nav>
-            <i class="fa fa-bars mobile-nav" aria-hidden="true"></i>
-            <ul class="desk-nav">
+            <img src="./img/union.png" alt="menu icon" class="mobile-nav" id="hamburger">
+            <ul class="desk-nav" id="scripticon">
+               <li id="display"><img src="./img/close-btn.png " alt="close button"></li>
                 <li><a href="#portfolio-section">Portfolio</a></li>
                 <li><a href="#about-section">About</a></li>
                 <li><a href="#contact-section">Contact</a></li>
             </ul>
-        </nav>
+            </nav>
+            <div class="mob-menu collapse">
+                <i class="fa fa-times" aria-hidden="true"></i>
+                <ul class="menu-link">
+                   <li><a href="#portfolio-section" class="links">Portfolio</a></li>
+                   <li><a href="#about-section" class="links">About</a></li>
+                   <li><a href="#contact-section" class="links">Contact</a></li>
+               </ul>
+            </div>
+         
     </header>
     <section id="portfolio-section" class="home-page">
         <div class="welcome-text">
@@ -303,6 +313,8 @@
 
 
     <script src="https://use.fontawesome.com/1226aa0088.js"></script>
+    <script src="script.js"></script>
 </body>
+
 
 </html>
