@@ -28,7 +28,7 @@ const projectsdata = [
      source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2'
  },
 {
-     id = '0',
+     id = '1',
      name =  'Multi-Post Stories Gain+Glory',
      tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
      images = '/images/port.png',
@@ -36,7 +36,7 @@ const projectsdata = [
      source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2'
  },
 {
-     id = '0',
+     id = '2',
      name =  'Multi-Post Stories Gain+Glory',
      tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
      images = '/images/port.png',
@@ -44,7 +44,7 @@ const projectsdata = [
      source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2'
  },
 {
-     id = '0',
+     id = '3',
      name =  'Multi-Post Stories Gain+Glory',
      tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
      images = '/images/port.png',
@@ -52,7 +52,7 @@ const projectsdata = [
      source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2',
  },
  {
-     id = '0',
+     id = '4',
      name =  'Multi-Post Stories Gain+Glory',
      tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
      images = '/images/port.png',
@@ -60,7 +60,7 @@ const projectsdata = [
      source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2',
  },
  {
-  id = '0',
+  id = '5',
   name =  'Multi-Post Stories Gain+Glory',
   tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
   images = '/images/port.png',
