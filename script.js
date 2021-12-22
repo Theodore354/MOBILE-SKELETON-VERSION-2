@@ -16,3 +16,43 @@ for (let i = 0; i < links.length; i += 1) {
     mobilemenu.classList.add('collapse');
   });
 }
+
+//Creating data for  portfolio card
+const projectsdata = [
+  {
+     id = '0',
+     name =  'Multi-Post Stories Gain+Glory',
+     tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
+     images = '/images/port.png'
+ },
+{
+     id = '0',
+     name =  'Multi-Post Stories Gain+Glory',
+     tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
+     images = '/images/port.png'
+ },
+{
+     id = '0',
+     name =  'Multi-Post Stories Gain+Glory',
+     tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
+     images = '/images/port.png'
+ },
+{
+     id = '0',
+     name =  'Multi-Post Stories Gain+Glory',
+     tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
+     images = '/images/port.png'
+ },
+ {
+     id = '0',
+     name =  'Multi-Post Stories Gain+Glory',
+     tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
+     images = '/images/port.png'
+ },
+ {
+  id = '0',
+  name =  'Multi-Post Stories Gain+Glory',
+  tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
+  images = '/images/port.png'
+}
+];
