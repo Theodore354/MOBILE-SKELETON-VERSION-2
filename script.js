@@ -23,36 +23,48 @@ const projectsdata = [
      id = '0',
      name =  'Multi-Post Stories Gain+Glory',
      tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-     images = '/images/port.png'
+     images = '/images/port.png',
+     live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
+     source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2'
  },
 {
      id = '0',
      name =  'Multi-Post Stories Gain+Glory',
      tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-     images = '/images/port.png'
+     images = '/images/port.png',
+     live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
+     source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2'
  },
 {
      id = '0',
      name =  'Multi-Post Stories Gain+Glory',
      tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-     images = '/images/port.png'
+     images = '/images/port.png',
+     live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
+     source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2'
  },
 {
      id = '0',
      name =  'Multi-Post Stories Gain+Glory',
      tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-     images = '/images/port.png'
+     images = '/images/port.png',
+     live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
+     source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2',
  },
  {
      id = '0',
      name =  'Multi-Post Stories Gain+Glory',
      tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-     images = '/images/port.png'
+     images = '/images/port.png',
+     live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
+     source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2',
  },
  {
   id = '0',
   name =  'Multi-Post Stories Gain+Glory',
   tech = ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-  images = '/images/port.png'
-}
+  images = '/images/port.png',
+  live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
+  source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2',
+},
 ];
