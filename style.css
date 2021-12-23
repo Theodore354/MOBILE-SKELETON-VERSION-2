@@ -212,14 +212,16 @@ h1 span {
   width: 327px;
   background-image: url('./images/image_Plaholder.svg');
   position: relative;
+  border: 1px solid #d0d9d4;
 }
 
 .poject_card_info {
   background-color: #fff;
-  height: 47%;
   position: relative;
+  height: 222px;
   border-radius: 8px;
-  top: 250px;
+  top: 252px;
+  border: 1px solid #d0d9d4;
 }
 
 .project-card .card-title {
@@ -240,6 +242,7 @@ h1 span {
   display: flex;
   justify-content: space-around;
   margin: 15px 0;
+  list-style: none;
 }
 
 .project-technologies li {
@@ -252,10 +255,20 @@ h1 span {
   color: #3a4a42;
 }
 
-.project-btn {
-  display: flex;
-  justify-content: center;
-  margin: 22px;
+.btn {
+  background-color: #36b37f;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  padding: 12px;
+  border: none;
+  color: #fff;
+  letter-spacing: 0.03em;
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+  line-height: 24px;
+  margin-left: 30%;
+  cursor: pointer;
 }
 
 .section-paragraph {
@@ -466,6 +479,109 @@ hr {
   display: none;
 }
 
+.modal-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  -webkit-transition: 0.5s;
+  transition: all 0.3s linear;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  overflow: auto;
+  display: none;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #fff;
+  height: auto;
+  padding: 16px;
+  margin: 10px auto;
+  width: 343px;
+  transition: all 0.3s linear;
+  position: relative;
+}
+
+.modal-content .fa-times {
+  color: #fff;
+  cursor: pointer;
+  /* margin-right: 20px; */
+  font-size: 20px;
+  position: absolute;
+  right: 35px;
+  top: 32px;
+  z-index: 10;
+}
+
+.modal-content img {
+  width: 311px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.modal-content h2 {
+  color: #172b4d;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  line-height: 44px;
+  margin-top: 0;
+}
+
+.md-wrapper {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.md-wrapper li {
+  color: #3a4a42;
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  background: #ebf0ee;
+  padding: 10px 12px;
+  margin: 10px 8px;
+  border-radius: 4px;
+}
+
+.modal-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 12px 0;
+  width: 311px;
+  color: #344563;
+}
+
+.modalbtn a {
+  padding: 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: #36b37f;
+  color: #fff;
+  width: 134px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin: 12px 12px 12px 0;
+}
+
+.desktop {
+  display: none;
+}
+
 @media screen and (min-width: 992px) {
   .heading-element {
     display: flex;
@@ -623,5 +739,93 @@ hr {
     font-weight: bold;
     color: #172b4d;
     text-align: center;
+  }
+
+  .modal-container {
+    overflow: auto;
+  }
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #fff;
+    height: auto;
+    padding: 16px;
+    margin: 15px auto;
+    width: 920px;
+    transition: all 0.3s linear;
+    position: relative;
+  }
+
+  .modal-content img {
+    width: 872px;
+    height: 500px;
+    border-radius: 8px;
+    margin-top: 45px;
+  }
+
+  .modal-content h2 {
+    color: #172b4d;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 44px;
+    margin: 0;
+    width: 589px;
+  }
+
+  .modal-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 25px 0;
+    width: 876px;
+    color: #344563;
+  }
+
+  .modal-content .fa-times {
+    color: #67798e;
+    background-color: #ebecf0;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 30px;
+    position: absolute;
+    top: 24px;
+  }
+
+  .modalbtn a {
+    padding: 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #36b37f;
+    color: #fff;
+    width: 134px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+    /* margin: 12px 12px 12px 0; */
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .modalbtn.desktop {
+    display: flex;
+    list-style: none;
+    margin: 15px 0 30px;
+  }
+
+  .headbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .md-wrapper.desktop {
+    display: flex;
   }
 }
