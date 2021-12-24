@@ -568,7 +568,7 @@ hr {
   color: #344563;
 }
 
-.modalbtn a {
+ .modalbtn a {
   padding: 12px;
   border-radius: 4px;
   text-decoration: none;
@@ -811,14 +811,14 @@ hr {
     font-weight: 500;
     font-size: 10px;
     line-height: 24px;
-    /* margin: 12px 12px 12px 0; */
+
   }
 
   .mobile {
     display: none;
   }
 
-  .modalbtn.desktop {
+  .modalbtn .desktop {
     display: flex;
     list-style: none;
     margin: 15px 0 30px;
