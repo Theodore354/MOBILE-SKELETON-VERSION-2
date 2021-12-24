@@ -120,3 +120,4 @@ document.querySelectorAll('.btn').forEach((btn) => {
     document.querySelector('.modal-container').style.display = 'block';
   });
 });
+

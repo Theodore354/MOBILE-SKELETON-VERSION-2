@@ -187,9 +187,8 @@
                     <textarea name="message" placeholder="Type a  message!" rows="5" maxlength="500" required
                         class="form-control input4" id="Type_a_message"></textarea>
                 </div>
-                <div class="project-btn">
-                    <a href="#">Get In Touch</a>
-                </div>
+                    <button type="submit">Get In Touch</button>
+                
             </form>
         </div>
     </section>
@@ -217,10 +216,33 @@
         <h3 class="email-title"><a href="alberttheodore17@gmail.com">alberttheodore17@gmail.com</a></h3>
     </footer>
 
-    
-</body>
+    <section class="modal-container">
+        <article class="modal-content">
+            <div class="header">
+            <span id="closeModal"><i class="fa fa-times" id="modclose" aria-hidden="true"></i></span>
+            <img id="projectImage" src="#" alt="sample project">
+            </div>
+            <ul class="md-wrapper mobile"></ul>
+            <div class="headbtn">
+            <h2 id="projectname"></h2>
+            <ul class="modalbtn desktop">
+                <li><a id="liveLink" href="#" target="_blank">See Live <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                <li><a id="sourceCode" href="#" target="_blank">See Source <i class="fa fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+            </div>
+            <ul class="md-wrapper desktop"></ul>
+            <p class="modal-text" id="projectDesc"></p>
+            <div class="modalbtn mobile">
+                <a id="liveLink" href="#" target="_blank">See Live <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                <a id="sourceCode" href="#" target="_blank">See Source <i class="fa fa-github" aria-hidden="true"></i></a>
+             </div>
+                </div>
+            </div>
+        </article>
+    </section>
 
-    <script src="script.js"></script>
     <script src="https://use.fontawesome.com/1226aa0088.js"></script>
+    <script src="script.js"></script>
+</body>
 
 </html>
