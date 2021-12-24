@@ -125,12 +125,12 @@ document.querySelectorAll('.btn').forEach((btn) => {
 
 const form = document.getElementsByClassName('message-form');
 const email = document.getElementById('email');
-const formcontrolinput4  = document.querySelector('.form-control input4');
+const erroMsg  = document.querySelector('.erro-msg');
 
 form.addEventListener('submit', (e) => {
   if (email.value === email.value.toLowerCase()) {
-    formcontrolinput4.textContent = '';
+    erroMsg.textContent = '';
   } else { e.preventDefault(); }
-  formcontrolinput4.textContent = '*Email must be in lowercase letters';
+  erroMsg.textContent = '*Email must be in lowercase letters';
 });
 
