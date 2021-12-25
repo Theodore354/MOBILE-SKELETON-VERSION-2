@@ -176,5 +176,4 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-closeModal();
 
