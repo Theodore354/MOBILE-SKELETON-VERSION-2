@@ -4,7 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 #message.error {
@@ -163,7 +163,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url('./images/header-illsutration-mobile.svg');
+  background-image: url("./images/header-illsutration-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -301,9 +301,7 @@ hr {
   cursor: pointer;
 }
 
-.languages_used li:hover {
-  background: #c5e9da;
-}
+.languages_used li:hover { background: #c5e9da; }
 
 .see_project {
   text-decoration: none;
@@ -323,9 +321,7 @@ hr {
   justify-content: center;
 }
 
-.see_project:hover {
-  background: #172b4d;
-}
+.see_project:hover { background: #172b4d; }
 
 /* About Me Section */
 
@@ -334,9 +330,7 @@ hr {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: 
-      url('./images/illustration-aboutme-mobile.svg'),
-      url('./images/Mask_Group.svg');
+  background-image: url("./images/illustration-aboutme-mobile.svg"), url("./images/Mask_Group.svg");
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat;
   height: 450px;
@@ -388,7 +382,7 @@ ul .languages {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url('./images/illustration-contact-form.svg') no-repeat;
+  background: url("./images/illustration-contact-form.svg") no-repeat;
   background-size: 10%;
   background-position: bottom 275px right 0;
   width: 100%;
@@ -507,7 +501,7 @@ footer .social_media_icons {
   /* Headline Section */
 
   .headline {
-    background-image: url('./images/Header-llustration-desktop.svg');
+    background-image: url("./images/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 1300px;
@@ -598,9 +592,7 @@ footer .social_media_icons {
   .detailed_info {
     width: 100%;
     height: 331px;
-    background-image: 
-        url('./images/Frame.svg'),
-        url('./images/illustration-about-me-2-desktop.svg');
+    background-image: url("./images/Frame.svg"), url("./images/illustration-about-me-2-desktop.svg");
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
     margin: 40px auto;
@@ -629,10 +621,7 @@ footer .social_media_icons {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background: 
-      url('./images/Frame2.svg') no-repeat,
-      url('./images/illustration-2-contact-form-desktop.svg') no-repeat,
-      url('./images/Frame3.svg') no-repeat;
+    background: url("./images/Frame2.svg") no-repeat, url("./images/illustration-2-contact-form-desktop.svg") no-repeat, url("./images/Frame3.svg") no-repeat;
     background-position: bottom left, 450px 540px, bottom right;
     margin: auto;
   }
