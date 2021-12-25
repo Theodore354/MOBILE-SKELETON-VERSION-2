@@ -3,7 +3,6 @@
 
 > This is my portfolio website showcasing my work as a web developer
 
-![screenshot](./app_screenshot.png)
 
 
 
@@ -11,6 +10,7 @@
 
 - HTML
 - CSS
+-JAVASCRIPT
 
 To get a local copy up and running follow these simple example steps.
 
