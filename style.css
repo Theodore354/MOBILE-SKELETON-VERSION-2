@@ -335,8 +335,8 @@ hr {
   align-items: center;
   text-align: center;
   background-image: 
-    url('./images/illustration-aboutme-mobile.svg'),
-    url('./images/Mask_Group.svg');
+      url('./images/illustration-aboutme-mobile.svg'),
+      url('./images/Mask_Group.svg');
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat;
   height: 450px;
@@ -599,8 +599,8 @@ footer .social_media_icons {
     width: 100%;
     height: 331px;
     background-image: 
-      url('./images/Frame.svg'),
-      url('./images/illustration-about-me-2-desktop.svg');
+        url('./images/Frame.svg'),
+        url('./images/illustration-about-me-2-desktop.svg');
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
     margin: 40px auto;
@@ -629,7 +629,8 @@ footer .social_media_icons {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background: url('./images/Frame2.svg') no-repeat,
+    background: 
+      url('./images/Frame2.svg') no-repeat,
       url('./images/illustration-2-contact-form-desktop.svg') no-repeat,
       url('./images/Frame3.svg') no-repeat;
     background-position: bottom left, 450px 540px, bottom right;
