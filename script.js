@@ -1,123 +1,157 @@
-const hamburger = document.querySelector('.mobile-nav');
-const mobilemenu = document.querySelector('.mob-menu');
-const closebtn = document.querySelector('.fa-times');
-const links = document.querySelectorAll('.links');
-
-hamburger.addEventListener('click', () => {
-  mobilemenu.classList.remove('collapse');
-});
-
-closebtn.addEventListener('click', () => {
-  mobilemenu.classList.add('collapse');
-});
-
-for (let i = 0; i < links.length; i += 1) {
-  links[i].addEventListener('click', () => {
-    mobilemenu.classList.add('collapse');
-  });
+const getnav = document.querySelector('.mobile_menu');
+function mobileMenu() {
+  getnav.style.visibility = 'visible';
+}
+function closeMenu() {
+  getnav.style.visibility = 'hidden';
 }
 
-//Creating data for  portfolio card
-const projectsdata = [
-  {
-     id: '0',
-     name:  'Multi-Post Stories Gain+Glory',
-     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-     tech:  ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-     images: '/img/popup.png',
-     live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
-     source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2'
- },
+mobileMenu();
+closeMenu();
+
+/// ///////////  Model Window
+
+const project = [{
+  id: '1',
+  name: 'Keeping track of hundreds of components',
+  title: 'Multi-Post Stories Gain+Glory',
+  desription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  img_desktop: './images/proj_img_desktop.svg',
+  img_mobile: './images/proj_img_mobile.svg',
+  placeholder_img: './images/Im_Plaholder2.png',
+  feature_list: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+  live_version: 'https://timmychan99.github.io/portfolio/',
+  source_link: 'https://timmychan99.github.io/portfolio/',
+},
 {
-     id: '1',
-     name:  'Multi-Post Stories Gain+Glory',
-     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-     tech:  ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-     images:  '/img/popup.png',
-     live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
-     source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2'
- },
+  id: '2',
+  name: 'Keeping track of hundreds of components',
+  title: 'Multi-Post Stories Gain+Glory',
+  desription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  img_desktop: './images/proj_img_desktop.svg',
+  img_mobile: './images/proj_img_mobile.svg',
+  placeholder_img: './images/Im_Plaholder2.png',
+  feature_list: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+  live_version: 'https://timmychan99.github.io/portfolio/',
+  source_link: 'https://timmychan99.github.io/portfolio/',
+},
 {
-     id: '2',
-     name:  'Multi-Post Stories Gain+Glory',
-     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-     tech: ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-     images: '/img/popup.png',
-     live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
-     source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2'
- },
+  id: '3',
+  name: 'Keeping track of hundreds of components',
+  title: 'Multi-Post Stories Gain+Glory',
+  desription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  img_desktop: './images/proj_img_desktop.svg',
+  img_mobile: './images/proj_img_mobile.svg',
+  placeholder_img: './images/Im_Plaholder2.png',
+  feature_list: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+  live_version: 'https://timmychan99.github.io/portfolio/',
+  source_link: 'https://timmychan99.github.io/portfolio/',
+}, {
+  id: '4',
+  name: 'Keeping track of hundreds of components',
+  title: 'Multi-Post Stories Gain+Glory',
+  desription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  img_desktop: './images/proj_img_desktop.svg',
+  img_mobile: './images/proj_img_mobile.svg',
+  placeholder_img: './images/Im_Plaholder2.png',
+  feature_list: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+  live_version: 'https://timmychan99.github.io/portfolio/',
+  source_link: 'https://timmychan99.github.io/portfolio/',
+},
 {
-     id: '3',
-     name:  'Multi-Post Stories Gain+Glory',
-     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-     tech: ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-     images: '/img/popup.png',
-     live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
-     source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2',
- },
- {
-     id: '4',
-     name:  'Multi-Post Stories Gain+Glory',
-     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-     tech: ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-     images: '/img/popup.png',
-     live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
-     source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2',
- },
- {
   id: '5',
-  name: 'Multi-Post Stories Gain+Glory',
-  desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  tech: ['Ruby on rails', 'Javascript', 'Css', 'Html'],
-  images: '/img/popup.png',
-  live: 'https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/',
-  source: 'https://github.com/Theodore354/MOBILE-SKELETON-VERSION-2',
-}
+  name: 'Keeping track of hundreds of components',
+  title: 'Multi-Post Stories Gain+Glory',
+  desription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  img_desktop: './images/proj_img_desktop.svg',
+  img_mobile: './images/proj_img_mobile.svg',
+  placeholder_img: './images/Im_Plaholder2.png',
+  feature_list: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+  live_version: 'https://timmychan99.github.io/portfolio/',
+  source_link: 'https://timmychan99.github.io/portfolio/',
+},
+{
+  id: '6',
+  name: 'Keeping track of hundreds of components',
+  title: 'Multi-Post Stories Gain+Glory',
+  desription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  img_desktop: './images/proj_img_desktop.svg',
+  img_mobile: './images/proj_img_mobile.svg',
+  placeholder_img: './images/Im_Plaholder2.png',
+  feature_list: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+  live_version: 'https://timmychan99.github.io/portfolio/',
+  source_link: 'https://timmychan99.github.io/portfolio/',
+},
 ];
 
-// CREATING THE ARRAY OF CARDS
+/// //////////////////////////// Add Project Cards
 
-const container = document.querySelector('.project-container');
-for (let i = 0; i < projectsdata.length; i += 1 ) {
-  const card = document.createElement('div');
-  card.className = 'project-card';
-  const info = `
-  <div class="poject_card_info">
-  <div class="card-title">
-      <h4>${projectsdata[i].name}</h4>
-  </div>
-  <ul class="project-technologies">
-      <li>${projectsdata[i].tech[0]}</li>
-      <li>${projectsdata[i].tech[1]}</li>
-      <li>${projectsdata[i].tech[2]}</li>
-      <li>${projectsdata[i].tech[3]}</li>
-  </ul>
-  <div class="project-btn">
-      <button type="button" class="btn" id="${projectsdata[i].id}">See Project</button>
-  </div>
-  </div>
-  `;
-  card.innerHTML = info;
-  container.appendChild(card);
+const workSection = document.querySelector('.cards');
+
+for (let i = 0; i < project.length; i += 1) {
+  workSection.innerHTML += `
+  <div class="card">
+    <img class="img_placeholder" src=${project[i].placeholder_img} alt="Img_Plaholder" />
+    <div class="project_info">
+      <h4 class="project_name">${project[i].title}</h4>
+      <ul class="languages_used">
+        <li><a href="#">${project[i].technologies[0]}</a></li>
+        <li><a href="#">${project[i].technologies[1]}</a></li>
+        <li><a href="#">${project[i].technologies[2]}</a></li>
+        <li><a href="#">${project[i].technologies[3]}</a></li>
+      </ul>
+      <a id=${project[i].id} onclick="openModal(id)" class="see_project" href="#">See Project</a>
+    </div>`;
 }
 
-// Creating the modal popup 
+/// ///////////////////////// Popup Window
 
-document.querySelectorAll('.btn').forEach((btn) => {
-  btn.addEventListener('click', () => {
-    const project = projectsdata.find((p) => p.id === Number(btn.id));
-    document.querySelector('#projectImage').setAttribute('src', project.images);
-    document.querySelector('.md-wrapper').innerHTML = `
-    <li>${project.tech[0]}</li>
-    <li>${project.tech[1]}</li>
-    <li>${project.tech[2]}</li>
-    `;
-    document.querySelector('#projectname').innerText = project.name;
-    document.querySelector('#liveLink').setAttribute('href', project.live);
-    document.querySelector('#sourceCode').setAttribute('href', project.source);
-    document.querySelector('#projectDesc').innerHTML = project.desc;
-    
-    document.querySelector('.modal-container').style.display = 'block';
-  });
-});
+const modal = document.querySelector('#bg_modal');
+
+function closeModal() {
+  modal.style.visibility = 'hidden';
+}
+
+function openModal(id) {
+  modal.style.visibility = 'visible';
+
+  for (let i = 0; i < project.length; i += 1) {
+    if (id === project[i].id) {
+      modal.innerHTML = `<div class="modal_window" id="model_window">
+      <img onclick="closeModal()" class="close_btn" src="./images/close_btn.svg" alt="">
+      <img class="project_img_desktop" src=${project[i].img_desktop} alt="project">
+      <img onclick="closeModal()" class="project_img_mobile" src=${project[i].img_mobile} alt="project">
+      <h2 class="project_title">${project[i].name}</h2>
+      <ul class="tech_list languages_used">
+        <li><a href="#">${project[i].technologies[0]}</a></li>
+        <li><a href="#">${project[i].technologies[1]}</a></li>
+        <li><a href="#">${project[i].technologies[2]}</a></li>
+      </ul>
+      <ul class="feature_list">
+        <li><a href="#">${project[i].feature_list[0]}</a></li>
+        <li><a href="#">${project[i].feature_list[1]}</a></li>
+        <li><a href="#">${project[i].feature_list[2]}</a></li>
+        <li><a href="#">${project[i].feature_list[2]}</a></li>
+        <li><a href="#">${project[i].feature_list[3]}</a></li>
+        <li><a href="#">${project[i].feature_list[5]}</a></li>
+      </ul>
+      <p class="project_decription">${project[i].desription}</p>
+      <div class="modal_btns">
+        <a class="modal_btn" href=${project[i].live_version}><span>See Live</span><img class="btn_icon" src="./images/Iive_icon.svg"
+            alt="live icon"></a>
+        <a class="modal_btn" href=${project[i].source_link}><span>See Source</span><img class="btn_icon" src="./images/github_btn.svg"
+            alt="live icon"></a>
+      </div>
+    </div>`;
+    }
+  }
+}
+openModal();
+closeModal();
 
