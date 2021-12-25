@@ -334,7 +334,8 @@ hr {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: url('./images/illustration-aboutme-mobile.svg'),
+  background-image: 
+    url('./images/illustration-aboutme-mobile.svg'),
     url('./images/Mask_Group.svg');
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat;
@@ -597,7 +598,8 @@ footer .social_media_icons {
   .detailed_info {
     width: 100%;
     height: 331px;
-    background-image: url('./images/Frame.svg'),
+    background-image: 
+      url('./images/Frame.svg'),
       url('./images/illustration-about-me-2-desktop.svg');
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;

@@ -154,4 +154,3 @@ function openModal(id) {
 }
 openModal();
 closeModal();
-
