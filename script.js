@@ -153,6 +153,7 @@ function openModal(id) {
   }
 }
 openModal();
+
 closeModal();
 
 const form = document.querySelector('#submit_form');
@@ -174,3 +175,6 @@ form.addEventListener('submit', (e) => {
     setTimeout(() => { form.submit(); }, 1300);
   }
 });
+
+closeModal();
+
