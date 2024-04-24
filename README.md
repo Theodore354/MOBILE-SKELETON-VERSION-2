@@ -1,7 +1,7 @@
 # portfolio site
 [link here!](https://theodore354.github.io/MOBILE-SKELETON-VERSION-2/)
 
-> This is my portfolio website showcasing my work as a web developer
+> This is my portfolio website showcasing my work as a Jnr Web developer
 
 
 
